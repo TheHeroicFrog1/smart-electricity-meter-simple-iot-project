@@ -7,7 +7,7 @@ It measures real-time AC voltage, current, power, and energy consumption, and pu
 ## 📐 System Architecture
 Here is the exact wiring setup to make this work safely.
 
-![Circuit Diagram](./images/circuit-diagram.svg)
+![Circuit Diagram](/circuit-diagram.svg)
 
 ## 🛠️ Hardware You Need
 * **ESP8266 (NodeMCU)** - The brain and Wi-Fi chip.
