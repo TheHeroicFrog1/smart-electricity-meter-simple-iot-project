@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  
+  <text x="450" y="40" fill="#c9d1d9" font-size="24" font-weight="bold" text-anchor="middle">IoT Smart Electricity Meter - Corrected Architecture</text>
+
+  <rect x="80" y="100" width="220" height="260" rx="10" fill="#1f2428" stroke="#58a6ff" stroke-width="3"/>
+  <text x="190" y="135" fill="#58a6ff" font-size="18" font-weight="bold" text-anchor="middle">ESP8266 (NodeMCU)</text>
+  
+  <rect x="15" y="200" width="65" height="30" rx="4" fill="#161b22" stroke="#8b949e" stroke-width="2"/>
+  <text x="47" y="220" fill="#8b949e" font-size="12" font-weight="bold" text-anchor="middle">USB Power</text>
+  <path d="M 80 215 L 95 215" stroke="#8b949e" stroke-width="4"/>
+
+  <circle cx="280" cy="180" r="6" fill="#ff7b72" /> <text x="260" y="184" fill="#c9d1d9" font-size="14" text-anchor="end">Vin (5V)</text>
+  <circle cx="280" cy="220" r="6" fill="#8b949e" /> <text x="260" y="224" fill="#c9d1d9" font-size="14" text-anchor="end">GND</text>
+  <circle cx="280" cy="260" r="6" fill="#d2a8ff" /> <text x="260" y="264" fill="#c9d1d9" font-size="14" text-anchor="end">D5 (RX)</text>
+  <circle cx="280" cy="300" r="6" fill="#a5d6ff" /> <text x="260" y="304" fill="#c9d1d9" font-size="14" text-anchor="end">D6 (TX)</text>
+
+  <rect x="550" y="100" width="220" height="260" rx="10" fill="#1f2428" stroke="#3fb950" stroke-width="3"/>
+  <text x="660" y="135" fill="#3fb950" font-size="18" font-weight="bold" text-anchor="middle">PZEM-004T (V3.0)</text>
+
+  <circle cx="570" cy="180" r="6" fill="#ff7b72" /> <text x="590" y="184" fill="#c9d1d9" font-size="14" text-anchor="start">5V</text>
+  <circle cx="570" cy="220" r="6" fill="#8b949e" /> <text x="590" y="224" fill="#c9d1d9" font-size="14" text-anchor="start">GND</text>
+  <circle cx="570" cy="260" r="6" fill="#a5d6ff" /> <text x="590" y="264" fill="#c9d1d9" font-size="14" text-anchor="start">TX</text>
+  <circle cx="570" cy="300" r="6" fill="#d2a8ff" /> <text x="590" y="304" fill="#c9d1d9" font-size="14" text-anchor="start">RX</text>
+
+  <rect x="620" y="360" width="80" height="30" fill="#3fb950" />
+  <circle cx="635" cy="360" r="5" fill="#ff7b72" /> <text x="635" y="350" fill="#c9d1d9" font-size="12" text-anchor="middle">L</text>
+  <circle cx="665" cy="360" r="5" fill="#58a6ff" /> <text x="665" y="350" fill="#c9d1d9" font-size="12" text-anchor="middle">N</text>
+  <circle cx="695" cy="360" r="5" fill="#e3b341" /> <text x="695" y="350" fill="#c9d1d9" font-size="12" text-anchor="middle">CT</text>
+
+  <rect x="30" y="500" width="120" height="60" rx="5" fill="#161b22" stroke="#ff7b72" stroke-width="2"/>
+  <text x="90" y="535" fill="#ff7b72" font-size="14" font-weight="bold" text-anchor="middle">230V Mains In</text>
+  
+  <rect x="420" y="470" width="160" height="100" rx="5" fill="#161b22" stroke="#c9d1d9" stroke-width="2"/>
+  <text x="500" y="525" fill="#c9d1d9" font-size="16" font-weight="bold" text-anchor="middle">Extension Socket</text>
+
+  <rect x="720" y="480" width="140" height="80" rx="5" fill="#161b22" stroke="#e3b341" stroke-width="2"/>
+  <text x="790" y="525" fill="#e3b341" font-size="14" font-weight="bold" text-anchor="middle">Appliance (Load)</text>
+
+  <circle cx="300" cy="510" r="25" fill="none" stroke="#e3b341" stroke-width="8" stroke-dasharray="10,4"/>
+  <text x="300" y="470" fill="#e3b341" font-size="14" font-weight="bold" text-anchor="middle">CT Coil Clamp</text>
+
+  <path d="M 280 180 L 570 180" fill="none" stroke="#ff7b72" stroke-width="3" />
+  <path d="M 280 220 L 570 220" fill="none" stroke="#8b949e" stroke-width="3" />
+
+  <path d="M 280 260 L 570 260" fill="none" stroke="#d2a8ff" stroke-width="3" stroke-dasharray="6,4" /> <path d="M 280 300 L 570 300" fill="none" stroke="#a5d6ff" stroke-width="3" stroke-dasharray="6,4" /> <path d="M 150 510 L 420 510" fill="none" stroke="#ff7b72" stroke-width="6" />
+  
+  <path d="M 150 540 L 420 540" fill="none" stroke="#58a6ff" stroke-width="6" />
+
+  <path d="M 200 510 L 200 420 L 635 420 L 635 360" fill="none" stroke="#ff7b72" stroke-width="2" />
+  <circle cx="200" cy="510" r="4" fill="#ff7b72" /> <path d="M 220 540 L 220 440 L 665 440 L 665 360" fill="none" stroke="#58a6ff" stroke-width="2" />
+  <circle cx="220" cy="540" r="4" fill="#58a6ff" /> <path d="M 300 485 L 300 390 L 695 390 L 695 360" fill="none" stroke="#e3b341" stroke-width="3" />
+
+  <path d="M 580 500 L 720 500" fill="none" stroke="#ff7b72" stroke-width="4" stroke-dasharray="8,4" />
+  <path d="M 580 530 L 720 530" fill="none" stroke="#58a6ff" stroke-width="4" stroke-dasharray="8,4" />
+  <text x="650" y="490" fill="#c9d1d9" font-size="12" font-style="italic" text-anchor="middle">Plugged in</text>
+
+</svg>
